@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>課題3のWebサイトです</title>
+    <meta name="description" content="課題3のWebサイトです">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css">
+ 　 <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1/i18n/jquery.ui.datepicker-ja.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+  <body>
+   <h1>このサイトは石田の課題です。石田について知りたい人</h1>
+    <p>東京都渋谷区で働いている40代のITコンサルタントが普段どんなことをしているか知ってもらう紹介サイトです。</p2>
+    <div class="content">
+      <div id="mainvisual">
+        <img src="img/mainvisual1.jpg" alt="">
+      </div>
+      <ul id="thumbnail">
+        <li><img src="img/mainvisual1.jpg" alt=""></li>
+        <li><img src="img/mainvisual2.jpg" alt=""></li>
+        <li><img src="img/mainvisual3.jpg" alt=""></li>
+        <li><img src="img/mainvisual4.jpg" alt=""></li>
+        <li><img src="img/mainvisual5.jpg" alt=""></li>
+      </ul>
+    </div>
+    
+   
+<h4>アクセス</h4>
+<div class="hoge">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.675996209852!2d139.7012426145297!3d35.66035358019917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ca4d71b72f1%3A0xacd57ba44d76796e!2z44Kv44Ot44K544Kq44OV44Kj44K55riL6LC3!5e0!3m2!1sja!2sjp!4v1649679916805!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+    <div class="content">
+      <h2 class="page-title">石田について知りたい申し込みフォーム</h2>
+      <form action="#">
+        <dl class="form-area">
+          <dt><label for="name">名前</label><span>必須</span></dt>
+          <dd>
+            <input type="text" id="name" name="your-name">
+            <p id="name-error" class="error-text"></p>
+          </dd>
+
+          <dt><label for="tel1">電話番号</label><span>必須</span></dt>
+          <dd>
+            <input type="text" id="tel1" name="your-tel1"> -
+            <input type="text" id="tel2" name="your-tel2"> -
+            <input type="text" id="tel3" name="your-tel3">
+            <p id="tel-error" class="error-text"></p>
+          </dd>
+          <dt><label for="reservation">予約日</label><span>必須</span></dt>
+          <dd>
+            <input type="text" id="reservation" name="your-reservation"> 13時 ～ 14時
+            <p id="reservation-error" class="error-text"></p>
+          </dd>
+
+          <dt>ご要望<span>必須</span></dt>
+          <dd>
+            <input type="radio" id="online" class="lesson" name="your-lesson" value="online" checked>
+            <label for="online">資料を希望する</label><br>
+            <input type="radio" id="venue" class="lesson" name="your-lesson" value="venue">
+            <label for="venue">説明を希望する</label>
+            <p id="lesson-error" class="error-text"></p>
+          </dd>
+        </dl>
+
+        <div class="note-online">
+          <p2>
+            説明はzoomシステムを使用いたします。<br>
+            端末とネットワーク環境が必要になりますのでご準備をお願いいたします。<br>
+            資料については、営業担当より別途ご案内を差し上げます。
+          </p2>
+        </div>
+        <p2>
+          【会社情報】<br>
+          会場:ABC株式会社<br>
+          住所:東京都渋谷区渋谷1-12-2 クロスオフィス渋谷<br>
+          電話番号:00-0000-0000
+        </p2>
+         
+          
+        </div>
+
+        <div class="button-area">
+          <button id="submit-button" type="button" value="">上記の内容で申し込む</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
